@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+body{
+    font-family: 'Kirang Haerang', cursive;
+    margin: 20px;
+}
+
+#saida p {
+    font-size: 30px;
+}
+
+button {
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    bottom: 10px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    top: 10px;
+}
+th, td{
+    padding: 10px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top: 35px;
+    font-size: 20pt;
+    width: 50%;
+}   
+
+#botoes button{
+    margin-left: 60px;
+    padding: 35px;
+}
+
+#mpmm input{
+    padding: 15px;
+    text-align: center;
+}
+
+#mpmm button{
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+}
