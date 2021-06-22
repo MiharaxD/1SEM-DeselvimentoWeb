@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conta</title>
+</head>
+<body>
+    <h1>Sistema de conta</h1>
+        <form action="">
+        <label for="nome">Usuario</label>
+        <input id="usuario" type="text" value="" name="nome" style="margin-left: 73px;"  required><br>
+        <label for="senha">Senha</label>
+        <input required id="senha" value="" name="senha" type="password" minlength="6" style="margin-left: 86px;"><br>
+        <label for="senha">Confirmar senha</label>
+        <input required id="confirmar" value="" name="senha "type="password"><br>
+        <input onclick="conta()" type="button" value="Entrar">
+        </form>
+    <section id="erro">
+        <p></p>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
